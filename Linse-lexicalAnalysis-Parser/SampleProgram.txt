@@ -1,0 +1,81 @@
+
+/* 
+Sample program for LINSE Programming Language 
+
+*/
+
+
+main{
+
+//this is a predicate declaration to find out xor of two inputs
+predicate xor(in1, in2){
+
+//detecting if two of them are opposite truth values
+if(in1 == false * in2 == true + in1 == true * in2 == false){
+return true:
+}
+
+
+
+return false:
+ }
+ // variable declaration
+Dancing:
+//constant is assigned to a value
+ "linse is a beautiful language" = true:
+ "today is raining" = false:
+ //variable assigned to a value
+
+ab = true:
+ c = false:
+ // variable assigned to a complicated expression
+ berk = "linse is a beautiful language" <- ab + "today is raining":
+
+doren = (ab + c) * "linse is a beautiful language" :
+ anil = "today is raining" * xor(ab,c) -> berk + doren:
+ 
+
+if(anil == berk * "today is raining"){
+	if(ber*anil){
+		a=b:
+	}
+	else{
+		a = b:
+		//repeats until xor predicate returns false
+		while(xor(ab,c))
+		{
+			"today is raining" = false:
+		}
+		c = a:
+
+	}
+
+}
+else{
+	OUT << anil * doren -> !(ab):
+	IN >> ab:
+}
+ 
+while(true){
+	c = c * ab -> berk: 
+}
+
+/* various declerations of arrays and assignments for their elements
+*/
+
+list[100]:
+
+anil = arr[12]:
+
+list[0] = true:
+list[1] = arr[2]:
+
+arr[true, doren * list[1] + berk, anil, false, "today is sunny"] : 
+
+
+ 
+"sample_program" = (a*b -> c) <- anil:
+
+OUT << "sample_program":
+
+}
